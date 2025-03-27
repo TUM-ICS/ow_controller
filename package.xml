@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>ow_controller</name>
+  <version>0.0.0</version>
+  <description>The OpenWalker controller package</description>
+
+  <maintainer email="rogelio.guadarrama@tum.de">J. Rogelio Guadarrama-Olvera</maintainer>
+  <maintainer email="dean@tum.de">Emmanuel Dean-Leon</maintainer>
+  <maintainer email="florian.bergner@tum.de">Florian Bergner</maintainer>
+  <maintainer email="simon.armleder@tum.de">Simon Armleder</maintainer>
+
+  <license>Apache 2.0</license>
+
+  <url type="website">https://github.com/ics-robotics</url>
+
+  <author email="rogelio.guadarrama@tum.de">J. Rogelio Guadarrama-Olvera</author>
+  <author email="dean@tum.de">Emmanuel Dean-Leon</author>
+  <author email="florian.bergner@tum.de">Florian Bergner</author>
+  <author email="simon.armleder@tum.de">Simon Armleder</author>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <depend>roscpp</depend>
+  <depend>ow_core</depend>
+  <depend>ow_hw_interface</depend>
+  <depend>ow_fk</depend>
+  <depend>ow_zmp</depend>
+  <depend>ow_balancer</depend>
+  <depend>ow_com</depend>
+  <depend>ow_com_tg</depend>
+  <depend>ow_ftg</depend>
+  <depend>ow_fcm</depend>
+  <depend>ow_ik</depend>
+  <depend>ow_cmd_gen</depend>
+  <depend>ow_joint_tracker</depend>
+  <depend>ow_state_machine</depend>
+  <depend>ow_state_publisher</depend>
+
+  <test_depend>rosunit</test_depend>
+
+  <!-- The export tag contains other, unspecified, tags -->
+  <export>
+    <!-- Other tools can request additional information be placed here -->
+  </export>
+
+</package>
